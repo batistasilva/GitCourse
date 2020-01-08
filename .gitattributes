@@ -1,0 +1,17 @@
+# Git Attributes
+*.jpg diff=exif
+
+
+#* text=auto
+#.gitattributes !filter !diff
+
+# Binary files
+#*.png binary
+#*.jpg binary
+#*.jpeg binary
+
+# Git LFS files
+#*.zip filter=lfs diff=lfs merge=lfs -text
+# Remove tests from export
+#tests/*.* export-ignore
+# Git Attributes
